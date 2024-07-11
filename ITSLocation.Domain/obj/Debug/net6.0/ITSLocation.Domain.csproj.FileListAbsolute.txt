@@ -1,0 +1,12 @@
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\bin\Debug\net6.0\ITSLocation.Domain.deps.json
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\bin\Debug\net6.0\ITSLocation.Domain.dll
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\bin\Debug\net6.0\ITSLocation.Domain.pdb
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ITSLocation.Domain.csproj.AssemblyReference.cache
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ITSLocation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ITSLocation.Domain.AssemblyInfoInputs.cache
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ITSLocation.Domain.AssemblyInfo.cs
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ITSLocation.Domain.csproj.CoreCompileInputs.cache
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ITSLocation.Domain.dll
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\refint\ITSLocation.Domain.dll
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ITSLocation.Domain.pdb
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Domain\obj\Debug\net6.0\ref\ITSLocation.Domain.dll

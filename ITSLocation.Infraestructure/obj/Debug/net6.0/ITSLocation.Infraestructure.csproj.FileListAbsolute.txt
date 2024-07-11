@@ -1,0 +1,15 @@
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\bin\Debug\net6.0\ITSLocation.Infraestructure.deps.json
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\bin\Debug\net6.0\ITSLocation.Infraestructure.dll
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\bin\Debug\net6.0\ITSLocation.Infraestructure.pdb
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\bin\Debug\net6.0\ITSLocation.Domain.dll
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\bin\Debug\net6.0\ITSLocation.Domain.pdb
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.csproj.AssemblyReference.cache
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.AssemblyInfoInputs.cache
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.AssemblyInfo.cs
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.csproj.CopyComplete
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.dll
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\refint\ITSLocation.Infraestructure.dll
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ITSLocation.Infraestructure.pdb
+C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.Infraestructure\obj\Debug\net6.0\ref\ITSLocation.Infraestructure.dll

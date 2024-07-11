@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Application\\ITSLocation.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Application\\ITSLocation.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Application\\ITSLocation.Application.csproj",
+        "projectName": "ITSLocation.Application",
+        "projectPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Application\\ITSLocation.Application.csproj",
+        "packagesPath": "C:\\Users\\ctaba\\.nuget\\packages\\",
+        "outputPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Infraestructure\\ITSLocation.Infraestructure.csproj": {
+                "projectPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Infraestructure\\ITSLocation.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Schema": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Domain\\ITSLocation.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Domain\\ITSLocation.Domain.csproj",
+        "projectName": "ITSLocation.Domain",
+        "projectPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Domain\\ITSLocation.Domain.csproj",
+        "packagesPath": "C:\\Users\\ctaba\\.nuget\\packages\\",
+        "outputPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Infraestructure\\ITSLocation.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Infraestructure\\ITSLocation.Infraestructure.csproj",
+        "projectName": "ITSLocation.Infraestructure",
+        "projectPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Infraestructure\\ITSLocation.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\ctaba\\.nuget\\packages\\",
+        "outputPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ctaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Domain\\ITSLocation.Domain.csproj": {
+                "projectPath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Domain\\ITSLocation.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

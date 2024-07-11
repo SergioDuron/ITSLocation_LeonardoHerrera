@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eW55i3nv9sHhMQgkKVbRkAYfbgNf0a1kbQbFXIbdJPYnzbLoGMhcy2Nz3BgTIQPVBStMU16AN90luYHnECNEEw==",
+  "success": true,
+  "projectFilePath": "C:\\Documentos\\.NET Programs\\ITSLocation_LeonardoHerrera\\ITSLocation.Domain\\ITSLocation.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ctaba\\.nuget\\packages\\nlog\\5.3.2\\nlog.5.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

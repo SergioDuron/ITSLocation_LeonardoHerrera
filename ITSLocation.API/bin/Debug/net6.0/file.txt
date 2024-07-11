@@ -1,0 +1,268 @@
+2024-07-11 13:09:43.0826|DEBUG|ITSLocation.API.Program|init main
+2024-07-11 13:09:43.9363|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-11 13:09:43.9842|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-11 13:09:44.3554|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: B49CA9AA1C400B7B9DEC963F288CF68A84D63972)
+2024-07-11 13:09:44.3943|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7082
+2024-07-11 13:09:44.4721|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5104
+2024-07-11 13:09:44.4721|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ITSLocation.API
+2024-07-11 13:09:44.4721|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-11 13:09:44.4721|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-11 13:09:44.4721|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-11 13:09:44.4721|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-11 13:09:44.4721|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.API\
+2024-07-11 13:09:44.4721|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-11 13:09:44.4985|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMF9" received FIN.
+2024-07-11 13:09:44.4985|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMF8" received FIN.
+2024-07-11 13:09:44.5056|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMF9" accepted.
+2024-07-11 13:09:44.5056|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMF8" accepted.
+2024-07-11 13:09:44.5056|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMF8" started.
+2024-07-11 13:09:44.5056|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMF9" started.
+2024-07-11 13:09:44.5292|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-11 13:09:44.5292|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-11 13:09:44.5917|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMF9" stopped.
+2024-07-11 13:09:44.5917|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMF8" stopped.
+2024-07-11 13:09:44.5945|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMF8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-11 13:09:44.5945|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMF9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-11 13:09:48.0597|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFA" accepted.
+2024-07-11 13:09:48.0635|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFA" started.
+2024-07-11 13:09:48.1503|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN51RK34FMFA established using the following protocol: Tls13
+2024-07-11 13:09:48.2909|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2024-07-11 13:09:48.4502|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-11 13:09:48.5202|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-11 13:09:48.5202|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-11 13:09:48.8289|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-11 13:09:49.3268|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-11 13:09:49.3521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2024-07-11 13:09:49.3521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2024-07-11 13:09:49.3521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 1067.5836ms
+2024-07-11 13:09:49.7369|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 384.7152ms
+2024-07-11 13:09:50.7528|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1400.6365ms
+2024-07-11 13:09:50.8415|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2024-07-11 13:09:50.8415|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-11 13:09:50.8415|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-11 13:09:51.0205|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.0802ms
+2024-07-11 13:09:51.7037|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMFA" received FIN.
+2024-07-11 13:09:51.7037|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN51RK34FMFA" is closed. The last processed stream ID was 7.
+2024-07-11 13:09:51.7037|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMFA" sending FIN because: "The client closed the connection."
+2024-07-11 13:09:51.7037|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFA" stopped.
+2024-07-11 13:10:29.5992|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFB" accepted.
+2024-07-11 13:10:29.6121|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFB" started.
+2024-07-11 13:10:29.6266|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN51RK34FMFB established using the following protocol: Tls13
+2024-07-11 13:10:29.6266|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/WeatherForecast - -
+2024-07-11 13:10:29.6266|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast'
+2024-07-11 13:10:29.6405|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-07-11 13:10:29.6405|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:10:29.6405|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-11 13:10:29.6405|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:10:29.6605|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ITSLocation.API.WeatherForecast] Get() on controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API).
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:10:29.6605|INFO|ITSLocation.API.Controllers.WeatherForecastController|Gettin weather forecast
+2024-07-11 13:10:29.6605|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-11 13:10:29.6731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-07-11 13:10:29.6731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-07-11 13:10:29.6731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-11 13:10:29.6731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-11 13:10:29.6731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-11 13:10:29.6731|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ITSLocation.API.WeatherForecast[]'.
+2024-07-11 13:10:29.6894|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API) in 24.4069ms
+2024-07-11 13:10:29.6894|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:10:29.6894|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/WeatherForecast - - - 200 - application/json;+charset=utf-8 62.5308ms
+2024-07-11 13:10:31.7473|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMFB" received FIN.
+2024-07-11 13:10:31.7473|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN51RK34FMFB" is closed. The last processed stream ID was 1.
+2024-07-11 13:10:31.7473|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMFB" sending FIN because: "The client closed the connection."
+2024-07-11 13:10:31.7501|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFB" stopped.
+2024-07-11 13:11:32.0224|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFC" accepted.
+2024-07-11 13:11:32.0447|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFC" started.
+2024-07-11 13:11:32.0572|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN51RK34FMFC established using the following protocol: Tls13
+2024-07-11 13:11:32.0572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/WeatherForecast - -
+2024-07-11 13:11:32.0572|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast'
+2024-07-11 13:11:32.0572|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-07-11 13:11:32.0572|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:11:32.0572|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-11 13:11:32.0572|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:11:32.0620|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ITSLocation.API.WeatherForecast] Get() on controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API).
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:11:32.0620|INFO|ITSLocation.API.Controllers.WeatherForecastController|Gettin weather forecast
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-11 13:11:32.0620|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-11 13:11:32.0620|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ITSLocation.API.WeatherForecast[]'.
+2024-07-11 13:11:32.0620|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API) in 0.81ms
+2024-07-11 13:11:32.0620|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:11:32.0620|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/WeatherForecast - - - 200 - application/json;+charset=utf-8 2.2409ms
+2024-07-11 13:11:36.8450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMFC" received FIN.
+2024-07-11 13:11:36.8450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN51RK34FMFC" is closed. The last processed stream ID was 1.
+2024-07-11 13:11:36.8450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RK34FMFC" stopped.
+2024-07-11 13:11:36.8450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RK34FMFC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-11 13:13:52.2629|DEBUG|ITSLocation.API.Program|init main
+2024-07-11 13:13:53.1529|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-11 13:13:53.1994|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-11 13:13:53.4138|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: B49CA9AA1C400B7B9DEC963F288CF68A84D63972)
+2024-07-11 13:13:53.4445|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7082
+2024-07-11 13:13:53.4568|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5104
+2024-07-11 13:13:53.4568|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ITSLocation.API
+2024-07-11 13:13:53.4568|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-11 13:13:53.4568|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-11 13:13:53.4568|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-11 13:13:53.4568|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-11 13:13:53.4568|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Documentos\.NET Programs\ITSLocation_LeonardoHerrera\ITSLocation.API\
+2024-07-11 13:13:53.4568|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-11 13:13:53.8425|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSH" accepted.
+2024-07-11 13:13:53.8425|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSH" started.
+2024-07-11 13:13:53.8474|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSI" accepted.
+2024-07-11 13:13:53.8474|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSI" started.
+2024-07-11 13:13:53.8834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSI" received FIN.
+2024-07-11 13:13:53.8834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSH" received FIN.
+2024-07-11 13:13:53.9064|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-11 13:13:53.9064|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-11 13:13:54.0911|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSI" stopped.
+2024-07-11 13:13:54.0911|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSH" stopped.
+2024-07-11 13:13:54.0911|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-11 13:13:54.0911|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-11 13:13:55.5342|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSJ" accepted.
+2024-07-11 13:13:55.5342|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSJ" started.
+2024-07-11 13:13:55.6305|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN51RMDECRSJ established using the following protocol: Tls13
+2024-07-11 13:13:55.6986|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2024-07-11 13:13:55.7704|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-11 13:13:55.7939|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-11 13:13:55.7939|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-11 13:13:55.9227|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-11 13:13:56.0959|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-11 13:13:56.0959|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 405.1247ms
+2024-07-11 13:13:56.0959|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2024-07-11 13:13:56.0959|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2024-07-11 13:13:56.1163|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.6907ms
+2024-07-11 13:13:56.1383|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.7675ms
+2024-07-11 13:13:56.2392|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2024-07-11 13:13:56.2392|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-11 13:13:56.2392|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-11 13:13:56.3755|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.3933ms
+2024-07-11 13:13:58.8066|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSJ" received FIN.
+2024-07-11 13:13:58.8066|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN51RMDECRSJ" is closed. The last processed stream ID was 7.
+2024-07-11 13:13:58.8066|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSJ" sending FIN because: "The client closed the connection."
+2024-07-11 13:13:58.8150|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSJ" stopped.
+2024-07-11 13:14:06.5575|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSK" accepted.
+2024-07-11 13:14:06.5575|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSK" started.
+2024-07-11 13:14:06.5629|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN51RMDECRSK established using the following protocol: Tls13
+2024-07-11 13:14:06.5629|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/WeatherForecast - -
+2024-07-11 13:14:06.5629|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast'
+2024-07-11 13:14:06.5629|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-07-11 13:14:06.5629|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:14:06.5629|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-11 13:14:06.5784|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:14:06.5961|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ITSLocation.API.WeatherForecast] Get() on controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API).
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:14:06.5961|INFO|ITSLocation.API.Controllers.WeatherForecastController|Gettin weather forecast
+2024-07-11 13:14:06.5961|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-11 13:14:06.6091|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-07-11 13:14:06.6091|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-07-11 13:14:06.6091|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-11 13:14:06.6091|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-11 13:14:06.6091|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-11 13:14:06.6091|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ITSLocation.API.WeatherForecast[]'.
+2024-07-11 13:14:06.6394|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API) in 32.6039ms
+2024-07-11 13:14:06.6394|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:14:06.6394|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/WeatherForecast - - - 200 - application/json;+charset=utf-8 76.0511ms
+2024-07-11 13:14:15.1984|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSK" received FIN.
+2024-07-11 13:14:15.1984|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN51RMDECRSK" is closed. The last processed stream ID was 1.
+2024-07-11 13:14:15.1984|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSK" sending FIN because: "The client closed the connection."
+2024-07-11 13:14:15.2126|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSK" stopped.
+2024-07-11 13:15:01.6052|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSL" accepted.
+2024-07-11 13:15:01.6233|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSL" started.
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN51RMDECRSL established using the following protocol: Tls13
+2024-07-11 13:15:01.6319|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/WeatherForecast - -
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast'
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-11 13:15:01.6319|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:15:01.6319|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ITSLocation.API.WeatherForecast] Get() on controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API).
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:15:01.6319|INFO|ITSLocation.API.Controllers.WeatherForecastController|Gettin weather forecast
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-11 13:15:01.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-11 13:15:01.6319|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ITSLocation.API.WeatherForecast[]'.
+2024-07-11 13:15:01.6319|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API) in 0.4646ms
+2024-07-11 13:15:01.6319|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:15:01.6319|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/WeatherForecast - - - 200 - application/json;+charset=utf-8 1.5509ms
+2024-07-11 13:15:05.2480|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSL" received FIN.
+2024-07-11 13:15:05.2480|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN51RMDECRSL" is closed. The last processed stream ID was 1.
+2024-07-11 13:15:05.2480|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSL" stopped.
+2024-07-11 13:15:05.2480|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSM" accepted.
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSM" started.
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN51RMDECRSM established using the following protocol: Tls13
+2024-07-11 13:15:25.2412|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7082/WeatherForecast - -
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/WeatherForecast'
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-11 13:15:25.2412|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:15:25.2412|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ITSLocation.API.WeatherForecast] Get() on controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API).
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ITSLocation.API.Controllers.WeatherForecastController (ITSLocation.API)
+2024-07-11 13:15:25.2412|INFO|ITSLocation.API.Controllers.WeatherForecastController|Gettin weather forecast
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-11 13:15:25.2412|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-11 13:15:25.2412|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ITSLocation.API.WeatherForecast[]'.
+2024-07-11 13:15:25.2492|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API) in 0.4126ms
+2024-07-11 13:15:25.2492|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ITSLocation.API.Controllers.WeatherForecastController.Get (ITSLocation.API)'
+2024-07-11 13:15:25.2492|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7082/WeatherForecast - - - 200 - application/json;+charset=utf-8 5.3007ms
+2024-07-11 13:15:25.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSM" received FIN.
+2024-07-11 13:15:25.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN51RMDECRSM" is closed. The last processed stream ID was 1.
+2024-07-11 13:15:25.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN51RMDECRSM" sending FIN because: "The client closed the connection."
+2024-07-11 13:15:25.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN51RMDECRSM" stopped.
